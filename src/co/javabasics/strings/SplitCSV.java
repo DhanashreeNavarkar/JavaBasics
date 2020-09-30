@@ -1,0 +1,18 @@
+package co.javabasics.strings;
+
+public class SplitCSV {
+
+	public static void main(String[] args) {
+
+		String str = "Sanket, Ayush, Sahil, Arjit, Darshit";
+		System.out.println(str);
+		
+		String split[] = str.split(",");
+		
+		for (int i =0; i<split.length; i++) {
+			System.out.println(split[i]);
+		}
+		
+	}
+
+}

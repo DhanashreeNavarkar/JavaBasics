@@ -1,0 +1,20 @@
+Thread -> unit of process, light weight sub process which share common memory
+main is the first java thread
+Threads are used to perform complicated tasks in the background without disturbing the main program.
+
+Creating threads:
+1. extend Thread class
+2. implement Runnable interface
+
+Multi threading -> it a process of executing threads simultaneously
+				   java supports multi threading
+				   it is used to reduce CPU idle time and improve utilization
+				  
+				  
+getName(): It is used for Obtaining a thread’s name
+getPriority(): Obtain a thread’s priority
+isAlive(): Determine if a thread is still running
+join(): Wait for a thread to terminate
+run(): Entry point for the thread
+sleep(): suspend a thread for a period of time
+start(): start a thread by calling its run() method
